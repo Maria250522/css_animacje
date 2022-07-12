@@ -34,13 +34,14 @@ div {
     height: 100px;
     background-color: red;
 
-    animation-name: div-move;
+    /* animation-name: div-move;
     animation-duration: 10s;
     animation-timing-function:linear;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-direction:normal;
-    animation-play-state: running;
+    animation-play-state: running; */
 
+    animation: div-move 10s linear backwards infinite normal running;
 }
 
